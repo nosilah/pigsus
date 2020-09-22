@@ -1,0 +1,359 @@
+@media(max-width:1150px) {
+    .container {
+        max-width: 1000px;
+
+    }
+
+    .header__top__phons__massengers {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+
+    }
+
+    .header__top__tarif__order {
+
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .header__top__order {
+        margin-top: 15px;
+        margin-left: 70px;
+        white-space: nowrap;
+    }
+
+    .header__top__tarif {
+        margin-left: 70px;
+        white-space: nowrap;
+    }
+
+    .menu__top {
+        font-size: 16px;
+
+
+
+    }
+
+    .menu__item-link {
+        padding: 30px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+@media(max-width:965px) {
+    .footer__item-list-border,.footer__item-title-border {
+        padding-left: 20px;
+    }
+     
+    .footer__item-order-tariv-social-border {
+        
+        padding-left: 30px;
+    }
+    .footer__item-title {
+        
+        font-size: 15px;
+        line-height: 17px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        white-space: nowrap;
+
+        
+    }
+    .footer__copy {
+        padding-top: 20px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+   
+}
+
+
+@media(max-width: 850px) {
+    .header__top__phons__nomber {
+        font-size: 14px;
+    }
+
+    .header__top__phons__text {
+        font-size: 8px;
+
+    }
+
+    .header__top__tarif,
+    .header__top__order {
+        font-size: 10px;
+    }
+
+
+    .menu__top {
+        font-size: 16px;
+
+    }
+
+    .menu__item-link {
+        padding: 20px;
+    }
+    .footer__item-link {
+        font-style: 12px;
+        line-height: 14px;
+        margin-bottom: 2px;
+    }
+
+
+}
+
+@media(max-width: 750px) {
+
+    .header__top__phons__nomber {
+        max-width: 100px;
+        white-space: nowrap;
+
+    }
+
+    .header__top__phons__nomber:hover {
+        border-bottom: 2px solid rgb(208, 170, 140);
+        width: 100%;
+        animation: all 0.3s;
+    }
+
+    .header__top__order,
+    .header__top__tarif {
+        margin-left: 20px;
+    }
+
+    .header__top-logo::after,
+    .header__top-logo::before {
+        width: 50px;
+    }
+
+    .header__top-logo::after {
+        margin-left: -45px;
+    }
+
+    .header__top-logo::before {
+        margin-left: 0px;
+    }
+
+    .menu__top {
+        font-size: 16px;
+
+    }
+
+    .menu__item-link {
+        padding: 10px;
+    }
+
+
+}
+
+@media(max-width: 700px) {
+
+
+
+
+    .header__top__phons__massengers,
+    .header__top__tarif__order {
+        border-top: none;
+        float: none;
+        margin: 0 auto;
+        padding: 20px 0 20px 0;
+        
+        
+
+    }
+
+    .header__top__order,
+    .header__top__tarif {
+        padding: 0 ;
+       width: 180px;
+       margin: 10px auto;
+       font-size: 12.5px;
+
+    }
+
+    .header__top__phons__massengers {
+        display: none;
+    }
+
+
+    .header__top {
+        display: block;
+        height: 100vh;
+        border: 1px solid rgb(47, 44, 52);
+        margin: 35px 5px 5px 5px;
+
+
+
+    }
+
+    .header__top-logo {
+        max-width: 212px;
+        margin: 0 auto;
+
+    }
+
+    .header__top-logo::after,
+    .header__top-logo::before {
+        display: none;
+    }
+    .header__top__phons__massengers-icons { 
+        display: flex;
+        margin: 0 auto;
+        width: 120px;
+    }
+    .header__top__phons__massengers-icon-phon a img,
+    .header__top__phons__massengers-icon-whatsapp a img,
+    .header__top__phons__massengers-icon-viber a img
+     {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px 20px 0;
+        
+     }
+     .about__pegsus__mobile__virsian {
+         display: block;
+         text-align: center;
+         margin: 10px 30px;
+         border-top: 1px solid rgb(47, 44, 52);
+   
+      }
+.about__pegsus__mobile__virsian-title { 
+    font-size: 18 px;
+    font-family: "Montserrat";
+    color: rgb(47, 44, 52);
+    text-transform: uppercase;
+    line-height: 30px;
+    
+
+}
+.about__pegsus__mobile__virsian-text { 
+    text-align: center;
+    font-size: 14 px;
+    font-family: "Montserrat";
+    color: rgb(47, 44, 52);
+    padding: 2px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+.header__nav__mobile__vr  {
+    display: block;
+    position: relative;
+    z-index: 999;
+
+}
+.header__nav{
+display: none;
+}
+.menu__btn {
+    display: block;
+    width: 40px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+}
+
+.menu__btn span {
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(47, 44, 52);
+    height: 2px;
+
+}
+
+.menu__top__mobile__vr  {
+    display: none;
+    padding-top: 60px;
+    text-align: center;
+    border-bottom: 1px solid rgb(47, 44, 52);
+}
+
+.menu__item-link__mobile__vr  {
+    display: block;
+    border-top: 1px solid rgb(47, 44, 52);
+    color: black;
+
+}
+
+.menu__item-link__mobile__vr :hover {
+    border-bottom: 1px solid transparent;
+    border: none;
+    background-color: rgb(208, 170, 140);
+    color: #ffffff;
+    transition: all .5s;
+}
+.about__pegasus__title-big {
+    font-size: 25px;
+    line-height: 33px;
+}
+.footer{
+    padding: 15px;
+}
+
+
+.footer__item-title span{
+    display: inline;
+}
+.footer__item-title-car,
+.footer__item-title-our-service,
+.footer__item-title-about-us{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__item-title-car__mobile__vr,
+.footer__item-title-our-service__mobile__vr,
+.footer__item-title-about-us__mobile__vr{
+    display: block;
+}
+
+.footer__items{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.footer__item,
+.footer__item-list{
+  
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.footer__item-list-car__mobile__vr,
+.footer__item-list-service__mobile__vr,
+.footer__item-list-about-us__mobile__vr{
+    display: none;
+}
+
+
+
+.footer__copy {font-family: "Montserrat";
+    padding-top: 17px;
+    text-align: justify;
+    font-size: 8px;
+    line-height: 10px;
+    padding-bottom: 10px;
+}
+.footer__item-title {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 510px){
+    .about__pegasus__title-big::after, .about__pegasus__title-big::before {
+        display: none;
+    }
+}
+
+}
