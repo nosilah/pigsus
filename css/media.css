@@ -7,15 +7,18 @@
     .header__top__phons__massengers {
         display: flex;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 30px;
 
+    }
+    .header__top__massangers{
+        margin-left: 0;
     }
 
     .header__top__tarif__order {
 
         display: flex;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .header__top__order {
@@ -29,15 +32,15 @@
         white-space: nowrap;
     }
 
-    .menu__top {
+    .menu__top a{
         font-size: 16px;
-
-
+padding: 20px 30px ;
+        justify-content: center;
 
     }
 
     .menu__item-link {
-        padding: 30px;
+        
     }
 
     .content {
@@ -73,7 +76,20 @@
     }
    
 }
+@media(max-width: 900px){
+    .menu__top a{
+        font-size: 14px;
+    }
+    .header__top__phons__massengers{
+        padding-right: 40px;
 
+    }
+    .header__top__tarif__order{
+        padding-left: 30px;
+    }
+
+
+}
 
 @media(max-width: 850px) {
     .header__top__phons__nomber {
@@ -90,14 +106,13 @@
         font-size: 10px;
     }
 
-
-    .menu__top {
-        font-size: 16px;
-
+    .menu__top a{
+       padding: 20px 20px; 
     }
+   
 
     .menu__item-link {
-        padding: 20px;
+        
     }
     .footer__item-link {
         font-style: 12px;
@@ -291,6 +306,12 @@ display: none;
     font-size: 25px;
     line-height: 33px;
 }
+.main__contents{
+    max-width: 600px;
+}
+.content__left img,.content__right img{
+    
+}
 .footer{
     padding: 15px;
 }
@@ -349,6 +370,9 @@ display: none;
     margin-bottom: 8px;
     text-transform: uppercase;
 }
+@media(max-width: 625px){
+    .content__left img,.content__right img{
+    
 
 @media(max-width: 510px){
     .about__pegasus__title-big::after, .about__pegasus__title-big::before {
